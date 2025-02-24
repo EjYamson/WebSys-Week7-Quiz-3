@@ -1,0 +1,25 @@
+:root { --primary-color: #007bff; --secondary-color: #333; --background-color: #f4f4f4; --text-color: #000; }
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: var(--background-color); }
+
+header, footer { background: var(--secondary-color); color: white; padding: 1rem; text-align: center; }
+
+nav a { color: white; margin: 0 15px; text-decoration: none; }
+
+main { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 20px; }
+
+article { flex: 2; padding: 20px; background: white; }
+
+aside { flex: 1; padding: 20px; background: var(--background-color); }
+
+button { background: var(--primary-color); color: white; padding: 10px; border: none; cursor: pointer; transition: background 0.3s; }
+
+button:hover { background: darkblue; }
+
+img { max-width: 100%; cursor: pointer; }
+
+.thumbnails img { width: 80px; margin: 5px; border: 2px solid transparent; }
+
+.thumbnails img:hover { border: 2px solid var(--primary-color); }
+
+@media (max-width: 768px) { main { flex-direction: column; } aside { order: 2; } }
