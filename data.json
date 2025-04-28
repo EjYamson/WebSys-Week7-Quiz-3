@@ -1,0 +1,19 @@
+{
+
+    "id":  301,
+    "name":  "EDWARD YAMSON",
+    "email":  "edward.yamson05@gmail.com",
+    "contact number ":  "09063130054",
+    "address":  {
+        "house NO.":  4271,
+    "blk":  "BLK 7",
+    "street":  "SAWATA MAYPAJO",
+    "city ":  "CALOOCAN"
+    },
+    "company":  {
+        "name":  "FUJISTU",
+    "position":  "SOFTWARE ENGEENER",
+    "department":  "DEVELOPMENT"
+    
+    }
+}
